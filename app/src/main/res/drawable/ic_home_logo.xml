@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:width="58dp"
+        android:height="58dp"
+        android:left="10dp"
+        android:right="10dp">
+        <shape android:shape="oval">
+            <gradient
+                android:angle="315"
+                android:endColor="@color/shoppi_gradient_purple"
+                android:startColor="@color/shoppi_gradient_pink"
+                android:type="linear" />
+
+        </shape>
+    </item>
+    <item
+        android:width="40dp"
+        android:height="15dp"
+        android:drawable="@drawable/img_logo"
+        android:gravity="center">
+    </item>
+</layer-list>
