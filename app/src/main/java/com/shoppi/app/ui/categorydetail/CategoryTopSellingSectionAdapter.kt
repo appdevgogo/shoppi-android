@@ -3,9 +3,7 @@ package com.shoppi.app.ui.categorydetail
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.ListAdapter
-import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.shoppi.app.databinding.ItemCategoryPromotionBinding
 import com.shoppi.app.databinding.ItemCategoryTopSellingSectionBinding
 import com.shoppi.app.model.TopSelling
 import com.shoppi.app.ui.common.TopSellingDiffCallback

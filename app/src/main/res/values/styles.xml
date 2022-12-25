@@ -6,7 +6,17 @@
         <item name="cornerSize">50%</item>
     </style>
 
+    <style name="RoundedBig">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <style name="RoundedMedium">
+        <item name="cornerSize">8dp</item>
+    </style>
+
     <!-- Text Style -->
+
+
     <style name="TextHeadline5.Black02" parent="TextAppearance.MaterialComponents.Headline5">
         <item name="android:textColor">@color/shoppi_black_02</item>
     </style>
@@ -15,19 +25,25 @@
         <item name="android:textStyle">bold</item>
     </style>
 
+    <style name="TextHeadline32.White.Bold" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/shoppi_white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">32sp</item>
+    </style>
+
     <style name="TextMedium" parent="TextAppearance.AppCompat.Medium">
         <item name="android:textColor">@color/shoppi_black_01</item>
     </style>
 
-    <style name="TextMedium.Bold" >
+    <style name="TextMedium.Bold">
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="TextMedium.Purple" >
+    <style name="TextMedium.Purple">
         <item name="android:textColor">@color/shoppi_purple</item>
     </style>
 
-    <style name="TextMedium.Purple.Bold" >
+    <style name="TextMedium.Purple.Bold">
         <item name="android:textStyle">bold</item>
     </style>
 
@@ -52,29 +68,33 @@
         <item name="android:textColor">@color/shoppi_black_01</item>
     </style>
 
-    <style name="TextSubtitle2.Black02" >
+    <style name="TextSubtitle2.Black02">
         <item name="android:textColor">@color/shoppi_black_02</item>
     </style>
 
-    <style name="TextSubtitle2.Black02.Bold" >
+    <style name="TextSubtitle2.Black02.Bold">
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="TextSubtitle2.Purple" >
+    <style name="TextSubtitle2.Purple">
         <item name="android:textColor">@color/shoppi_purple</item>
     </style>
 
-    <style name="TextSubtitle2.Purple.Bold" >
+    <style name="TextSubtitle2.Purple.Bold">
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="TextSubtitle2.Grey05" >
+    <style name="TextSubtitle2.Grey05">
         <item name="android:textColor">@color/shoppi_grey_05</item>
     </style>
 
     <style name="TextSubtitle3">
         <item name="android:textSize">13sp</item>
         <item name="android:textColor">@color/shoppi_black_01</item>
+    </style>
+
+    <style name="TextSubtitle3.Bold">
+        <item name="android:textStyle">bold</item>
     </style>
 
     <style name="TextSubtitle3.Grey03">
@@ -85,11 +105,15 @@
         <item name="android:textColor">@color/shoppi_black_01</item>
     </style>
 
-    <style name="TextCaption1.Grey03" >
+    <style name="TextCaption1.White">
+        <item name="android:textColor">@color/shoppi_white</item>
+    </style>
+
+    <style name="TextCaption1.Grey03">
         <item name="android:textColor">@color/shoppi_grey_03</item>
     </style>
 
-    <style name="TextCaption1.Grey05" >
+    <style name="TextCaption1.Grey05">
         <item name="android:textColor">@color/shoppi_grey_05</item>
     </style>
 
@@ -98,12 +122,17 @@
         <item name="android:textColor">@color/shoppi_black_01</item>
     </style>
 
-    <style name="TextCaption2.White" >
+    <style name="TextCaption2.White">
         <item name="android:textColor">@color/shoppi_white</item>
     </style>
 
-    <style name="TextCaption2.White.Bold" >
+    <style name="TextCaption2.White.Bold">
         <item name="android:textStyle">bold</item>
     </style>
+
+    <style name="TextCaption2.Grey04">
+        <item name="android:textColor">@color/shoppi_grey_04</item>
+    </style>
+
 
 </resources>
